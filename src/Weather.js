@@ -7,7 +7,7 @@ export default function Weather() {
     );
   }
   let city = `London`;
-  let url = `https://api.openweathermap.org/data/2.5/weather?q={city}&appid=a8c658ffb9d133b3bdbbc569ebe9def2&units=metric`;
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a8c658ffb9d133b3bdbbc569ebe9def2&units=metric`;
 
   axios.get(url).then(handleResponse);
   return <div className="Weather"> Hello from Weatherr</div>;
