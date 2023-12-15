@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Hello from HELL0!</h1>
-        <h2>I will alert the temperature</h2>
+        <h1> Weather App</h1>
 
         <Weather />
       </header>
